@@ -1,11 +1,11 @@
-class VanTiltCard extends HTMLElement {
+class TrailerTiltCard extends HTMLElement {
   // Whenever the state changes, a new `hass` object is set. Use this to
   // update your content.
   set hass(hass) {
     // Initialize the content if it's not there yet.
     if (!this.content) {
       this.innerHTML = `
-        <ha-card header="Van Tilt">
+        <ha-card header="Trailer Tilt">
           <div class="card-content"></div>
         </ha-card>
       `;
@@ -26,12 +26,12 @@ class VanTiltCard extends HTMLElement {
     this.content.innerHTML = `
       <row style="display: flex;">
         <div style="flex: 50%;text-align: center;">
-          <img src="/local/van-tilt-card/img/side.png" style="max-width: 100%;height: 100px;transform:rotate(${yRotate}deg);">
+          <img src="/local/trailer-tilt-card/img/side.png" style="max-width: 100%;height: 100px;transform:rotate(${yRotate}deg);">
           <hr>
           <h1>${yAngleStr}°</h1>
         </div>
         <div style="flex: 50%;text-align: center;">
-          <img src="/local/van-tilt-card/img/back.png" style="max-width: 100%;height: 100px;transform:rotate(${xRotate}deg);">
+          <img src="/local/trailer-tilt-card/img/back.png" style="max-width: 100%;height: 100px;transform:rotate(${xRotate}deg);">
           <hr>
           <h1>${xAngleStr}°</h1>
         </div>
@@ -58,5 +58,5 @@ class VanTiltCard extends HTMLElement {
   }
 }
 
-customElements.define('van-tilt-card', VanTiltCard);
+customElements.define('trailer-tilt-card', TrailerTiltCard);
 
