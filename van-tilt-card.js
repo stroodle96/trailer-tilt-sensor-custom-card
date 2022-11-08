@@ -26,12 +26,12 @@ class VanTiltCard extends HTMLElement {
     this.content.innerHTML = `
       <row style="display: flex;">
         <div style="flex: 50%;text-align: center;">
-          <img src="/local/van-tilt-card/img/promaster_side.png" style="max-width: 100%;height: 100px;transform:rotate(${yRotate}deg);">
+          <img src="/local/van-tilt-card/img/side.png" style="max-width: 100%;height: 100px;transform:rotate(${yRotate}deg);">
           <hr>
           <h1>${yAngleStr}°</h1>
         </div>
         <div style="flex: 50%;text-align: center;">
-          <img src="/local/van-tilt-card/img/promaster_back.png" style="max-width: 100%;height: 100px;transform:rotate(${xRotate}deg);">
+          <img src="/local/van-tilt-card/img/back.png" style="max-width: 100%;height: 100px;transform:rotate(${xRotate}deg);">
           <hr>
           <h1>${xAngleStr}°</h1>
         </div>
