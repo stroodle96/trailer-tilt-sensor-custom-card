@@ -13,4 +13,4 @@ type: 'custom:trailer-tilt-card'<br>
 entity_x: sensor.tt_filtered_x_angle<br>
 entity_y: sensor.tt_filtered_y_angle<br>
 
-![alt text](https://github.com/stroodle96/trailer-tilt-sensor-custom-card/blob/main/img/card_screenshot.png)
+![alt text](https://github.com/stroodle96/trailer-tilt-sensor-custom-card/blob/main/img/card_screenshot1.png)
